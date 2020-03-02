@@ -118,8 +118,8 @@ void loop()
 	* The `"ios"` represents the USB auto-detection of the Arduino Board
 	* `/dev/tty.usbmodem1411` represents a Mac USB port
 	* `/dev/ttyACM0/1/2 etc.` represents the Linux USB ports
+	* `COM[number]` represents the Windows USB ports
 	* The library will automatically search these ports for connected Arduino devices
-	* Windows support coming Soon&trade;
 
 ```json
 {
@@ -177,7 +177,7 @@ That's all there is to it!
 
 ## Authors
 
-[Jonathan Grizou](http://www.chem.gla.ac.uk/cronin/members/Jonathan/) and [Graham Keenan](https://github.com/ShinRa26) while working in the [Cronin Group](http://www.chem.gla.ac.uk/cronin/).
+[Jonathan Grizou](http://www.chem.gla.ac.uk/cronin/members/Jonathan/), [Graham Keenan](https://github.com/ShinRa26) and [Dario Cambie](http://www.chem.gla.ac.uk/cronin/members/DCambie/) while working in the [Cronin Group](http://www.chem.gla.ac.uk/cronin/).
 
 ## License
 
